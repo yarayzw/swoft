@@ -3,6 +3,9 @@
 namespace App\Http\Controller;
 
 
+use Swoft\Http\Server\Annotation\Mapping\Controller;
+use Swoft\Http\Server\Annotation\Mapping\RequestMapping;
+
 /**
  * Class HomeController
  * @Controller()
@@ -10,8 +13,8 @@ namespace App\Http\Controller;
 class TestController
 {
 
-    /**
-     * @RequestMapping("/testApi")
+    /**a
+     * @RequestMapping("/test/api")
      * @return string
      */
     public function testApi(): string
