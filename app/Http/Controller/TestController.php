@@ -2,13 +2,11 @@
 
 namespace App\Http\Controller;
 
-use Swoft;
-use Swoft\Exception\SwoftException;
-use Swoft\Http\Message\ContentType;
-use Swoft\Http\Message\Response;
-use Swoft\View\Renderer;
-use Throwable;
 
+/**
+ * Class HomeController
+ * @Controller()
+ */
 class TestController
 {
 
