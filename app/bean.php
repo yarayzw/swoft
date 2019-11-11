@@ -32,9 +32,9 @@ return [
         'logFile' => '@runtime/logs/error-%d{Y-m-d}.log',
     ],
     'logger'            => [
-        'flushRequest' => false,
-        'enable'       => false,
-        'json'         => false,
+        'flushRequest' => true,
+        'enable'       => true,
+        'json'         => true,
     ],
     'httpServer'        => [
         'class'    => HttpServer::class,
@@ -72,9 +72,9 @@ return [
     ],
     'db'                => [
         'class'    => Database::class,
-        'dsn'      => 'mysql:dbname=test;host=127.0.0.1',
-        'username' => 'root',
-        'password' => 'swoft123456',
+        'dsn'      => 'mysql:dbname=huiqulx_mall;host=rm-wz9nc4b599n2ec13u.mysql.rds.aliyuncs.com',
+        'username' => 'mall',
+        'password' => 'jPsbwvQiDGwoCRr0',
     ],
     'db2'               => [
         'class'      => Database::class,
