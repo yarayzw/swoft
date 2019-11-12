@@ -102,12 +102,11 @@ return [
     ],
     'redis'             => [
         'class'    => RedisDb::class,
-        'host'     => '127.0.0.1',
-        'port'     => 6379,
+        'host'     => '172.18.26.241',
+        'port'     => 5672,
         'database' => 0,
-        'option'   => [
-            'prefix' => 'swoft:'
-        ]
+        'user' => 'hqlxworker',
+        'password' => '&$welJW72PJLRUnc'
     ],
     'user'              => [
         'class'   => ServiceClient::class,
