@@ -19,6 +19,7 @@ class WeChatTheThirdPartyController
      */
     public function getToken(): string
     {
+        echo phpinfo();die;
         return 'emmm';
     }
 
