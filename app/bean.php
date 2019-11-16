@@ -153,5 +153,10 @@ return [
     ],
     'cliRouter'         => [
         // 'disabledGroups' => ['demo', 'test'],
+    ],
+    'consul' => [
+        'host' => '127.0.0.1',
+        'port' => '8500',
+        'timeout' => 30
     ]
 ];
